@@ -3,7 +3,7 @@ Ohjeet olettavat, että käytössä on VS Code, johon on Python asennettuna.
 Avaa komentorivi, navigoi kansioon, jossa tiedostot ovat ja luo uusi virtuaaliympäristö:
 
 cd path/to/your/project
-python -m venv venv _(jälkimmäisen 'venv'-tilalla voi olla oma nimi virtuaaliympäristölle)_
+python -m venv venv (jälkimmäisen 'venv'-tilalla voi olla oma nimi virtuaaliympäristölle)
 
 Aktivoi virtuaaliympäristö
 
@@ -17,3 +17,7 @@ pip install jupyter
 Asenna tarvittavat laajennukset:
 
 pip install -r requirements.txt
+
+Tarkista vielä VS Coden näytön oikeasta yläreunasta, että käytössä on oikea Kernel (virtuaaliympäristöä vastaava).
+Tämän jälkeen ohjelma pitäisi olla mahdollista ajaa normaalisti.
+
